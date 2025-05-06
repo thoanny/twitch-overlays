@@ -24,7 +24,7 @@ body {
     justify-content: center;
     position: relative;
     padding: 0;
-    width: 23rem;
+    width: 22rem;
 }
 .alert_outer-container.playing {
     animation: 12s alert-animation ease-in-out forwards;
@@ -33,9 +33,9 @@ body {
     display: flex;
     background-color: #93c045;
     width: 100%;
-    height: 6rem;
+    height: 5rem;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     flex-direction: row;
     gap: 1rem;
 }
@@ -43,8 +43,8 @@ body {
 .alert_image-container {
     display: flex;
     flex-grow: 1;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     flex-shrink: 0;
     background: #81aa39;
     border-radius: 0.25rem;
@@ -102,10 +102,10 @@ small {
 
 @keyframes alert-animation {
     0% {
-        left: 100%;
+        right: 100%;
     }
     8.333333333333332% {
-        left: 0;
+        right: 0;
     }
     91.66666666666667% {
         opacity: 1;
